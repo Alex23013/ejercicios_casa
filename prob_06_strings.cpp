@@ -1,5 +1,6 @@
 #include <iostream>
  #include <cstring>
+ #include <string.h> 
  using namespace std;
 
 void que()
@@ -16,8 +17,8 @@ void que()
 
  int main() {
 
- char fragment1[] = "I'm a c";
- char fragment2[] = "har";
+ char fragment1[] = "asdas";
+ char fragment2[] = "werwe";
  char fragment3[20];
  cout << "tenemos los fragmentos : " <<endl;
  cout << fragment1<<endl;
@@ -43,6 +44,26 @@ void que()
   	cout << finalString <<endl;
   	cout <<endl;
   }
+  if (x==3)
+  {
+  	tam=strlen(cadena);
+  	cout << "la cadena mide"<<tam <<endl;
+  	cout <<endl;
+  }
+  if (x==4)
+  {
+  	for(int i, i<5,i++)
+  	{
+  	while(fragment1[i]!=fragment2[i])
+  	{
+  		cout << "son diferentes"<<endl;
+  		break
+  	}
+  		cout << "son iguales"<<endl;
+  	}
+  	cout <<endl;
+  }
+  
  }
  
  
