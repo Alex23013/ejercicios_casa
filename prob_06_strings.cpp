@@ -46,18 +46,18 @@ void que()
   }
   if (x==3)
   {
-  	tam=strlen(cadena);
-  	cout << "la cadena mide"<<tam <<endl;
+  	int tam=strlen(fragment2);
+  	cout << "la cadena mide  "<<tam <<endl;
   	cout <<endl;
   }
   if (x==4)
   {
-  	for(int i, i<5,i++)
+  	for(int i; i<5;i++)
   	{
   	while(fragment1[i]!=fragment2[i])
   	{
   		cout << "son diferentes"<<endl;
-  		break
+  		break;
   	}
   		cout << "son iguales"<<endl;
   	}
