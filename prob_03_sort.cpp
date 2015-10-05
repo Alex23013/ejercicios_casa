@@ -53,5 +53,7 @@ int main()
     sort(pm,pm+n);//intArray, intArray + SIZE);
     cout << "Sorted Array: " << endl;
   	print_arr(pm);
+    cout << "Array Ordenado: " << endl;
+  	print_arr(am);
     return 0;
 }
