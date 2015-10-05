@@ -22,6 +22,7 @@ void que()
  cout << "tenemos los fragmentos : " <<endl;
  cout << fragment1<<endl;
  cout << fragment2<<endl;
+ cout << fragment3<<endl;
  char finalString[20] = "";
  int x =1;
  while(x!=0)
