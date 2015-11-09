@@ -7,3 +7,4 @@ int main() {
   Point *p = new Point; 
   delete p; 
 }
+
