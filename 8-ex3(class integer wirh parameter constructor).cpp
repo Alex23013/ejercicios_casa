@@ -8,5 +8,6 @@ public:
 
 int main() { 
   Integer i(3);
+  Integer j = 5;
 }
  
